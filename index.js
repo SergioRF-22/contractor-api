@@ -1,6 +1,4 @@
-const app = require('./app');
-
-init();
+const app = require('./src/app');
 
 async function init() {
   try {
@@ -12,3 +10,5 @@ async function init() {
     process.exit(1);
   }
 }
+
+init();
